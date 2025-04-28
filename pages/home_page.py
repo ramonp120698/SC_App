@@ -1,5 +1,5 @@
 import streamlit as st
-st.header('Home')
+
 
 # Centrar el contenido
 st.markdown("<h1 style='text-align: center;'>Home</h1>", unsafe_allow_html=True)
@@ -8,7 +8,7 @@ st.markdown("<h1 style='text-align: center;'>Home</h1>", unsafe_allow_html=True)
 st.markdown(
     """
     <div style="display: flex; justify-content: center;">
-        <img src="assets/sc_logo.png" width="400">
+        <img src="assets/sc_logo.png" width="200">
     </div>
     """,
     unsafe_allow_html=True
