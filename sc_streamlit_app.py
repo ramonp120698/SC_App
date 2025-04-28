@@ -3,20 +3,20 @@ import streamlit as st
 
 # --- PAGE SETUP ---
 about_page = st.Page(
-    "views/about_me.py",
-    title="About Me",
-    icon=":material/account_circle:",
+    "pages/taka_page.py",
+    title="Taka",
+    icon=":material/Videocam:",
     default=True,
 )
 project_1_page = st.Page(
-    "views/sales_dashboard.py",
-    title="Sales Dashboard",
-    icon=":material/bar_chart:",
+    "pages/byga_page.py",
+    title="Byga",
+    icon=":material/Anlytics:",
 )
 project_2_page = st.Page(
-    "views/chatbot.py",
-    title="Chat Bot",
-    icon=":material/smart_toy:",
+    "pages/Achamp_page.py",
+    title="A-Champ",
+    icon=":material/Sports And Outdoors:",
 )
 
 
@@ -33,8 +33,8 @@ pg = st.navigation(
 
 
 # --- SHARED ON ALL PAGES ---
-st.logo("assets/codingisfun_logo.png")
-st.sidebar.markdown("Made with ❤️ by [Sven](https://youtube.com/@codingisfun)")
+st.logo("assets/SC_logo2.png")
+
 
 
 # --- RUN NAVIGATION ---
