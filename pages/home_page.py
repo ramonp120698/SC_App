@@ -4,7 +4,7 @@ import streamlit as st
 st.markdown("<div style='height: 100px;'></div>", unsafe_allow_html=True)
 
 # Título centrado
-st.markdown("<h1 style='text-align: center;'>Home</h1>", unsafe_allow_html=True)
+#st.markdown("<h1 style='text-align: center;'>Home</h1>", unsafe_allow_html=True)
 
 # Espaciado entre título e imagen
 st.markdown("<div style='height: 50px;'></div>", unsafe_allow_html=True)
