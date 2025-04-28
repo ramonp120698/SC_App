@@ -1,9 +1,6 @@
 import streamlit as st
 
 
-# Centrar el contenido
-st.markdown("<h1 style='text-align: center;'>Home</h1>", unsafe_allow_html=True)
-
 # Espaciador
 st.markdown("<br>", unsafe_allow_html=True)
 
