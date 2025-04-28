@@ -15,7 +15,7 @@ about_page = st.Page(
     "pages/taka_page.py",
     title="Taka",
     icon=":material/videocam:",
-    default=True,
+    
 )
 project_1_page = st.Page(
     "pages/byga_page.py",
