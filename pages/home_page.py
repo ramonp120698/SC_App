@@ -1,13 +1,18 @@
 import streamlit as st
 
+# Espaciado superior
+st.markdown("<div style='height: 100px;'></div>", unsafe_allow_html=True)
 
-# Espaciador
-st.markdown("<br>", unsafe_allow_html=True)
+# Título centrado
+st.markdown("<h1 style='text-align: center;'>Home</h1>", unsafe_allow_html=True)
 
-# Cargar imagen de forma correcta
+# Espaciado entre título e imagen
+st.markdown("<div style='height: 50px;'></div>", unsafe_allow_html=True)
+
+# Imagen centrada
 st.image("assets/sc_logo.png", width=400)
 
-# Centramos toda la imagen con el contenedor
+# Centrar la imagen aplicando CSS
 st.markdown(
     """
     <style>
