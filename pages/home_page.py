@@ -20,7 +20,7 @@ st.markdown(
         display: block;
         margin-left: auto;
         margin-right: auto;
-        padding-left: 150px; 
+        padding-left: 1150px; 
     }
     </style>
     """,
