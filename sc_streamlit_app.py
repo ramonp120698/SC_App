@@ -4,6 +4,13 @@ with st.sidebar:
     st.logo("assets/SC_logo2.png")
 
 # --- PAGE SETUP ---
+home_page = st.Page(
+    "pages/taka_page.py",
+    title="Home",
+    icon=":material/home:",
+    default=True,
+)
+
 about_page = st.Page(
     "pages/taka_page.py",
     title="Taka",
@@ -28,8 +35,8 @@ project_2_page = st.Page(
 # --- NAVIGATION SETUP [WITH SECTIONS]---
 pg = st.navigation(
     {
-        "Info": [about_page],
-        "Projects": [project_1_page, project_2_page],
+        [home_page],
+        "Projects": [about_page],[project_1_page, project_2_page],
     }
 )
 
