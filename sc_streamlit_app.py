@@ -1,4 +1,4 @@
-Himport streamlit as st
+import streamlit as st
 # --- SHARED ON ALL PAGES ---
 with st.sidebar:
     st.logo("assets/SC_logo2.png")
