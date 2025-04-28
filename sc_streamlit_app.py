@@ -1,7 +1,16 @@
 import streamlit as st
 # --- SHARED ON ALL PAGES ---
 with st.sidebar:
-    st.image("assets/SC_logo2.png", width=200)
+    st.markdown(
+        """
+        <div style="display: flex; align-items: flex-start; justify-content: flex-start;">
+            <img src="https://raw.githubusercontent.com/ramonp120698/SC_App/main/assets/SC_logo2.png" width="150">
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+#with st.sidebar:
+ #   st.image("assets/SC_logo2.png", width=200)
 
 # --- PAGE SETUP ---
 about_page = st.Page(
