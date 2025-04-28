@@ -33,7 +33,8 @@ pg = st.navigation(
 
 
 # --- SHARED ON ALL PAGES ---
-st.image("assets/SC_logo2.png", width=200)
+with st.sidebar:
+    st.image("assets/SC_logo2.png", width=200)
 
 
 
