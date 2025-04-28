@@ -5,18 +5,18 @@ import streamlit as st
 about_page = st.Page(
     "pages/taka_page.py",
     title="Taka",
-    icon=":material/Videocam:",
+    icon=":material/videocam:",
     default=True,
 )
 project_1_page = st.Page(
     "pages/byga_page.py",
     title="Byga",
-    icon=":material/Anlytics:",
+    icon=":material/analytics:",
 )
 project_2_page = st.Page(
     "pages/Achamp_page.py",
     title="A-Champ",
-    icon=":material/Sports And Outdoors:",
+    icon=":material/sports_and_outdoors:",
 )
 
 
