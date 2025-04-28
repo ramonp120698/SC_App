@@ -1,5 +1,7 @@
 import streamlit as st
-
+# --- SHARED ON ALL PAGES ---
+with st.sidebar:
+    st.image("assets/SC_logo2.png", width=200)
 
 # --- PAGE SETUP ---
 about_page = st.Page(
@@ -32,9 +34,7 @@ pg = st.navigation(
 )
 
 
-# --- SHARED ON ALL PAGES ---
-with st.sidebar:
-    st.image("assets/SC_logo2.png", width=200)
+
 
 
 
