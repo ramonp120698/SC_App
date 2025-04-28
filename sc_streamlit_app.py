@@ -5,7 +5,7 @@ with st.sidebar:
 
 # --- PAGE SETUP ---
 home_page = st.Page(
-    "pages/taka_page.py",
+    "pages/home_page.py",
     title="Home",
     icon=":material/home:",
     default=True,
