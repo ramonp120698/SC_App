@@ -33,7 +33,7 @@ pg = st.navigation(
 
 
 # --- SHARED ON ALL PAGES ---
-st.logo("assets/SC_logo2.png")
+st.logo("assets/SC_logo.png")
 
 
 
