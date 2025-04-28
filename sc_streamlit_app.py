@@ -1,4 +1,4 @@
-import streamlit as st
+Himport streamlit as st
 # --- SHARED ON ALL PAGES ---
 with st.sidebar:
     st.logo("assets/SC_logo2.png")
@@ -35,7 +35,7 @@ project_2_page = st.Page(
 # --- NAVIGATION SETUP [WITH SECTIONS]---
 pg = st.navigation(
     {
-        
+        "Info:"[home_page],
         "Projects": [about_page, project_1_page, project_2_page],
     }
 )
